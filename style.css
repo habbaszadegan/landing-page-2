@@ -27,7 +27,7 @@
     color: #F9FAF8;
 }
 
-button, .container.four {
+button, .container-fourth-text {
     background-color: #3882F6;
 }
 
@@ -130,4 +130,26 @@ button {
 .thor {
     font-size: large;
     align-self: self-end;
+}
+
+.container-fourth-text {
+    color: white;
+    margin-block: 80px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action {
+    font-size: large;
+}
+
+.action-signup {
+    font-weight: lighter;
+}
+
+.final-button {
+    border: 2px solid white;
 }
