@@ -1,0 +1,38 @@
+*, body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.hero, .container.five {
+    background-color: #1F2937;
+}
+
+.hero {
+    font: 48px bolder #F9FAF8;
+}
+
+.hero-secondary-text, .header-link {
+    font: 18px #E5E7EB;
+}
+
+.header-logo {
+    font: 24px #F9FAF8;
+}
+
+button, .container.four {
+    background-color: #3882F6;
+}
+
+.body-second-text {
+    font: 36px bolder #1F2937;
+}
+
+.container.three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font: 36px lighter #1F2937;
+}
+
+
