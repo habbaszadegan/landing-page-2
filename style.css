@@ -9,15 +9,22 @@
 }
 
 .hero {
-    font: 48px bolder #F9FAF8;
+    /* font: 48px 900 #F9FAF8; */
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 .hero-secondary-text, .header-link {
-    font: 18px #E5E7EB;
+    /* font: 18px #E5E7EB; */
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.header-logo {
-    font: 24px #F9FAF8;
+#header-logo {
+    /* font: 24px #F9FAF8; */
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 button, .container.four {
@@ -25,7 +32,10 @@ button, .container.four {
 }
 
 .body-second-text {
-    font: 36px bolder #1F2937;
+    /* font: 36px 700 #1F2937; */
+    font-size: 36px;
+    font-weight: 700;
+    columns: #1F2937;
 }
 
 .container.three {
@@ -33,9 +43,21 @@ button, .container.four {
 }
 
 .quote {
-    font: 36px lighter #1F2937;
+    /* font: 36px lighter #1F2937; */
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
 }
 
+button {
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
 
 .container.one {
     color: white;
@@ -74,12 +96,27 @@ button, .container.four {
     gap: 50px;
 }
 
-button {
-    color: white;
-    width: 100px;
-    padding: 5px;
+.container.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    gap: 40px;
+}
+
+.container-image {
+    width: 150px;
+    text-align: center;
+}
+
+.the-images {
+    display: flex;
+    gap: 50px;
+}
+
+.image {
+    width: 150px;
+    border:5px solid #3882F6;
     border-radius: 10px;
-    font-weight: bold;
-    border: none;
-    margin-top: 10px;
 }
